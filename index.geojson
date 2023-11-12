@@ -1,0 +1,408 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "path": "https://raw.githubusercontent.com/rngadam/lane-data/main/sources/IMG_20220827_143455.jpg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.60883333333334,
+                    45.543166666666664
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "path": "https://raw.githubusercontent.com/rngadam/lane-data/main/sources/IMG_20220916_065725.jpg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.60883333333334,
+                    45.555
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "path": "https://raw.githubusercontent.com/rngadam/lane-data/main/sources/IMG_20220916_072536.jpg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.61833333333334,
+                    45.540333333333336
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "path": "https://raw.githubusercontent.com/rngadam/lane-data/main/sources/IMG_20220916_122419.jpg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.60283333333334,
+                    45.556
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "path": "https://raw.githubusercontent.com/rngadam/lane-data/main/sources/IMG_20220927_122002.jpg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.60766666666666,
+                    45.55833333333333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "path": "https://raw.githubusercontent.com/rngadam/lane-data/main/sources/IMG_20220927_125213.jpg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.60716666666667,
+                    45.556666666666665
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "path": "https://raw.githubusercontent.com/rngadam/lane-data/main/sources/IMG_20221025_202109.jpg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.60883333333334,
+                    45.556666666666665
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "path": "https://raw.githubusercontent.com/rngadam/lane-data/main/sources/IMG_20221109_140550.jpg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.60266666666666,
+                    45.55616666666667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "path": "https://raw.githubusercontent.com/rngadam/lane-data/main/sources/IMG_20230113_234613.jpg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.60366666666667,
+                    45.555166666666665
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "path": "https://raw.githubusercontent.com/rngadam/lane-data/main/sources/IMG_20230117_224814.jpg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.60716666666667,
+                    45.55833333333333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "path": "https://raw.githubusercontent.com/rngadam/lane-data/main/sources/IMG_20230131_225158.jpg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.60483333333333,
+                    45.556
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "path": "https://raw.githubusercontent.com/rngadam/lane-data/main/sources/IMG_20230414_084406.jpg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.59116666666667,
+                    45.551833333333335
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "path": "https://raw.githubusercontent.com/rngadam/lane-data/main/sources/IMG_20230519_074011.jpg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.702,
+                    45.555
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "path": "https://raw.githubusercontent.com/rngadam/lane-data/main/sources/IMG_20230530_194202.jpg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.60683333333333,
+                    45.55233333333334
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "path": "https://raw.githubusercontent.com/rngadam/lane-data/main/sources/IMG_20230707_225033.jpg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.60916666666667,
+                    45.55166666666667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "path": "https://raw.githubusercontent.com/rngadam/lane-data/main/sources/IMG_20230711_192258.jpg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.60683333333333,
+                    45.55233333333334
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "path": "https://raw.githubusercontent.com/rngadam/lane-data/main/sources/IMG_20230808_200459.jpg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.60966666666667,
+                    45.539833333333334
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "path": "https://raw.githubusercontent.com/rngadam/lane-data/main/sources/IMG_20230818_195825.jpg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.60866666666666,
+                    45.556666666666665
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "path": "https://raw.githubusercontent.com/rngadam/lane-data/main/sources/IMG_20230826_141842.jpg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.60283333333334,
+                    45.556
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "path": "https://raw.githubusercontent.com/rngadam/lane-data/main/sources/IMG_20231001_141923.jpg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.60816666666666,
+                    45.56
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "path": "https://raw.githubusercontent.com/rngadam/lane-data/main/sources/IMG_20231018_151400.jpg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.60283333333334,
+                    45.556
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "path": "https://raw.githubusercontent.com/rngadam/lane-data/main/sources/IMG_20231019_072325.jpg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.57016666666667,
+                    45.525
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "path": "https://raw.githubusercontent.com/rngadam/lane-data/main/sources/IMG_20231020_174345.jpg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.61666666666666,
+                    45.539833333333334
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "path": "https://raw.githubusercontent.com/rngadam/lane-data/main/sources/IMG_20231020_174440.jpg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.60716666666667,
+                    45.556666666666665
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "path": "https://raw.githubusercontent.com/rngadam/lane-data/main/sources/IMG_20231020_230420.jpg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.60716666666667,
+                    45.551833333333335
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "path": "https://raw.githubusercontent.com/rngadam/lane-data/main/sources/IMG_20231026_074529.jpg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.56983333333334,
+                    45.526666666666664
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "path": "https://raw.githubusercontent.com/rngadam/lane-data/main/sources/IMG_20231028_120242.jpg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.60483333333333,
+                    45.55566666666667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "path": "https://raw.githubusercontent.com/rngadam/lane-data/main/sources/IMG_20231028_123743.jpg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.74833333333333,
+                    45.545
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "path": "https://raw.githubusercontent.com/rngadam/lane-data/main/sources/IMG_20231028_124000.jpg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.7385,
+                    45.535
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "path": "https://raw.githubusercontent.com/rngadam/lane-data/main/sources/IMG_20231028_124106.jpg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.74083333333333,
+                    45.52583333333333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "path": "https://raw.githubusercontent.com/rngadam/lane-data/main/sources/IMG_20231109_185500.jpg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.63,
+                    45.541
+                ]
+            }
+        }
+    ]
+}
