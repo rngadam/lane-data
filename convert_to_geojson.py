@@ -6,51 +6,53 @@
 # The geojson file can be used in a map.
 
 import json
-import os
-import sys
 import argparse
-from datetime import datetime
 import re
 
-def ddm2dec(dms_str):
-    """Return decimal representation of DDM (degree decimal minutes)
+def dms_str_to_decimal(coord_str):
+    # Define a case-insensitive regex pattern to match degrees, minutes, seconds, and direction
+    pattern = r"(\d+) deg (\d+)' ([\d.]+)\" ([NSWE])"
 
-    >>> ddm2dec("45° 17,896' N")
-    48.8866111111F
-    """
+    # Use regex to extract matches with case-insensitivity
+    matches = re.findall(pattern, coord_str, re.IGNORECASE)
 
-    dms_str = re.sub(r'\s', '', dms_str)
+    if not matches:
+        raise ValueError("Invalid coordinate string format")
 
-    sign = -1 if re.search('[swSW]', dms_str) else 1
+    # Extract values from the matches
+    latitude_deg, latitude_min, latitude_sec = map(float, matches[0][:3])
+    longitude_deg, longitude_min, longitude_sec = map(float, matches[1][:3])
+    latitude_dir, longitude_dir = matches[0][3], matches[1][3]
 
-    numbers = [*filter(len, re.split('\D+', dms_str, maxsplit=4))]
+    # Convert to decimal coordinates
+    decimal_latitude = dms_to_decimal(latitude_deg, latitude_min, latitude_sec, latitude_dir)
+    decimal_longitude = dms_to_decimal(longitude_deg, longitude_min, longitude_sec, longitude_dir)
 
-    degree = numbers[0]
-    minute_decimal = numbers[1]
-    decimal_val = numbers[2] if len(numbers) > 2 else '0'
-    minute_decimal += "." + decimal_val
+    return decimal_latitude, decimal_longitude
 
-    return sign * (int(degree) + float(minute_decimal) / 60)
+def dms_to_decimal(degrees, minutes, seconds, direction):
+    decimal_degrees = degrees + (minutes / 60) + (seconds / 3600)
 
+    if direction in ['S', 'W']:
+        decimal_degrees = -decimal_degrees
+
+    # tend to be repeating numbers to infinity after 6 digits...
+    return round(decimal_degrees, 6)
 
 def convert_latlong(photo):
     """Convert the latitude and longitude of a photo to decimal degrees
 
     exiftool exports in this format:
 
-      "GPSPosition": "45 deg 33' 3.55\" N, 73 deg 36' 53.61\" W",
+      "GPSPosition": "45 deg 32' 59.17\" N, 73 deg 36' 53.00\" W",
 
     and we want this format:
 
-      "latitude": 45.55098611111111,
-      "longitude": -73.61489166666666,
+      "latitude": 45.549769,
+      "longitude":  ,
     """
-    # Get the latitude and longitude of the photo
-    latlong = photo["GPSPosition"].split(", ")
-
     # Convert the latitude and longitude to decimal degrees
-    photo["latitude"] = ddm2dec(latlong[0])
-    photo["longitude"] = ddm2dec(latlong[1])
+    photo["latitude"], photo["longitude"] = dms_str_to_decimal(photo["GPSPosition"])
 
 
 def convert(exif_index, base_url):
@@ -90,7 +92,11 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Convert index.json to geojson")
 
     # Add arguments
-    parser.add_argument("index", help="index.json file")
+    parser.add_argument(
+        "index",
+        help="index.json file",
+        default="index.json",
+        nargs="?")
     parser.add_argument(
         "base_url",
         help="where the photos are hosted",
